@@ -1,0 +1,3 @@
+C:/Users/M7C/CLionProjects/PP3CCB/cmake-build-debug/CMakeFiles/PP3CCB.dir
+C:/Users/M7C/CLionProjects/PP3CCB/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/M7C/CLionProjects/PP3CCB/cmake-build-debug/CMakeFiles/rebuild_cache.dir
