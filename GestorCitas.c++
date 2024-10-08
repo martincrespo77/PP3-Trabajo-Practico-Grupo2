@@ -21,10 +21,11 @@ void GestorCitas::agregarCita(Cita* cita) {
 }
 
 void GestorCitas::mostrarCitas() const {
-    cout << "Lista de Citas:\n";
+    cout << "\nLista de Citas:\n";
     for (const auto& cita : listaCitas) {
         cita->mostrarCita();
     }
+    cout << "-------------------------------------\n";
 }
 
 void GestorCitas::confirmarCita(string fecha) {

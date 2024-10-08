@@ -20,4 +20,5 @@ void ConsultaUrgente::mostrarConsulta() const {
          << "\nTratamiento: " << tratamiento
          << "\nNivel de Urgencia: " << nivelUrgencia
          << (esAltaUrgencia() ? " (Alta Urgencia)" : "") << endl;
+    cout << "-------------------------------------\n";
 }

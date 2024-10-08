@@ -24,4 +24,5 @@ void Receta::mostrarReceta() const {
          << "\nMedico: " << medico->getNombre()
          << "\nMedicamentos: " << medicamentos
          << "\nFecha: " << fecha << endl;
+    cout << "-------------------------------------\n";
 }

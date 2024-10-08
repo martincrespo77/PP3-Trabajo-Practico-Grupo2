@@ -20,4 +20,5 @@ void ConsultaProgramada::reprogramarConsulta(string nuevaFecha, string nuevaHora
 void ConsultaProgramada::mostrarConsulta() const {
     cout << "Consulta Programada\nFecha: " << fecha << "\nHora: " << horaProgramada
          << "\nDiagnostico: " << diagnostico << "\nTratamiento: " << tratamiento << endl;
+    cout << "-------------------------------------\n";
 }

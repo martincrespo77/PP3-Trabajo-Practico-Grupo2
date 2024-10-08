@@ -33,7 +33,7 @@ void GestorConsultas::eliminarConsulta(string fecha) {
 }
 
 void GestorConsultas::mostrarConsultas() const {
-    cout << "Lista de Consultas:\n";
+    cout << "\nLista de Consultas:\n";
     for (const auto& consulta : listaConsultas) {
         consulta->mostrarConsulta();
     }

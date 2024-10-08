@@ -22,4 +22,5 @@ string Factura::getFecha() const {
 void Factura::mostrarFactura() const {
     cout << "Factura:\nPaciente: " << paciente->getNombre()
          << "\nMonto: $" << monto << "\nFecha: " << fecha << endl;
+    cout << "-------------------------------------\n";
 }

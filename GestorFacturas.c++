@@ -21,7 +21,7 @@ void GestorFacturas::agregarFactura(Factura* factura) {
 }
 
 void GestorFacturas::mostrarFacturas() const {
-    cout << "Lista de Facturas:\n";
+    cout << "\nLista de Facturas:\n";
     for (const auto& factura : listaFacturas) {
         factura->mostrarFactura();
     }

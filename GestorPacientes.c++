@@ -45,6 +45,7 @@ void GestorPacientes::mostrarPacientes() const {
     for (const auto& paciente : listaPacientes) {
         cout << *paciente << endl;  // Usa la sobrecarga del operador <<
     }
+    cout << "-------------------------------------\n";
 }
 
 void GestorPacientes::ordenarPacientesPorEdad() {

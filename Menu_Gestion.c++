@@ -29,6 +29,7 @@ void gestionarPacientes(GestorPacientes& gestorPacientes) {
     cout << "0. Volver al menu principal\n";
     cout << "Seleccione una opcion: ";
     cin >> opcion;
+    cout << "\n";
 
     switch (opcion) {
         case 1: {
@@ -86,6 +87,7 @@ void gestionarMedicos(GestorMedicos& gestorMedicos, GestorPacientes& gestorPacie
     cout << "0. Volver al menu principal\n";
     cout << "Seleccione una opcion: ";
     cin >> opcion;
+    cout << "\n";
 
     switch (opcion) {
         case 1: {
@@ -131,7 +133,6 @@ void gestionarConsultas(GestorConsultas& gestorConsultas, GestorPacientes& gesto
     cout << "3. Mostrar Consultas\n";
     cout << "0. Volver al menu principal\n";
     cout << "Seleccione una opcion: ";
-    cin.ignore();
     cin >> opcion;
 
     switch (opcion) {
@@ -219,7 +220,6 @@ void gestionarRecetas(GestorRecetas& gestorRecetas, GestorPacientes& gestorPacie
     cout << "2. Mostrar Recetas\n";
     cout << "0. Volver al menu principal\n";
     cout << "Seleccione una opcion: ";
-    cin.ignore();
     cin >> opcion;
 
     switch (opcion) {
@@ -266,7 +266,6 @@ void gestionarFacturas(GestorFacturas& gestorFacturas, GestorPacientes& gestorPa
     cout << "2. Mostrar Facturas\n";
     cout << "0. Volver al menu principal\n";
     cout << "Seleccione una opcion: ";
-    cin.ignore();
     cin >> opcion;
 
     switch (opcion) {

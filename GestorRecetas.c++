@@ -21,7 +21,7 @@ void GestorRecetas::agregarReceta(Receta* receta) {
 }
 
 void GestorRecetas::mostrarRecetas() const {
-    cout << "Lista de Recetas:\n";
+    cout << "\nLista de Recetas:\n";
     for (const auto& receta : listaRecetas) {
         receta->mostrarReceta();
     }
